@@ -1,4 +1,4 @@
-# Kage DB Migration
+# Demo DB Migration
 
 ## Description
 Rails migrations in non-Rails (and non Ruby) projects.
