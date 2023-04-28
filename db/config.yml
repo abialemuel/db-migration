@@ -1,6 +1,6 @@
 
 development:
-  adapter: mysql
+  adapter: mysql2
   encoding: utf8
   host:     <%= ENV['DATABASE_HOST'] %>
   port:     <%= ENV['DATABASE_PORT'] %>
@@ -10,7 +10,7 @@ development:
   pool:     <%= ENV['DATABASE_POOL'] %>
 
 staging:
-  adapter: mysql
+  adapter: mysql2
   encoding: utf8
   host:     <%= ENV['DATABASE_STAGING_HOST'] %>
   port:     <%= ENV['DATABASE_STAGING_PORT'] %>
@@ -20,7 +20,7 @@ staging:
   pool:     <%= ENV['DATABASE_STAGING_POOL'] %>
 
 preproduction:
-  adapter: mysql
+  adapter: mysql2
   encoding: utf8
   host:     <%= ENV['DATABASE_HOST'] %>
   port:     <%= ENV['DATABASE_PORT'] %>
@@ -30,7 +30,7 @@ preproduction:
   pool:     <%= ENV['DATABASE_POOL'] %>
 
 production:
-  adapter: mysql
+  adapter: mysql2
   encoding: utf8
   host:     <%= ENV['DATABASE_PRODUCTION_HOST'] %>
   port:     <%= ENV['DATABASE_PRODUCTION_PORT'] %>
