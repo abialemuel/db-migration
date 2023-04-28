@@ -27,4 +27,7 @@ Rails migrations in non-Rails (and non Ruby) projects.
     rake db:rollback
 
 ### Documentation
-See https://github.com/thuss/standalone-migrations for more detail information
+See 
+https://guides.rubyonrails.org/active_record_migrations.html
+
+for more detail information
