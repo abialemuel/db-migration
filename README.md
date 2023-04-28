@@ -13,7 +13,7 @@ Rails migrations in non-Rails (and non Ruby) projects.
 
 ### Getting started
 1. Clone this repository and install the prerequisites above
-2. Run `bundle` to install dependencies
+2. Run `bundle` to install dependencies (try `xcode-select --install` if bundle got error)
 3. Copy `.env` from `env.sample` and modify the configuration value appropriately 
 4. Setup database `rake db:create && rake db:migrate`
 
