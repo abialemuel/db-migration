@@ -6,7 +6,7 @@ require 'dotenv'
 require 'standalone_migrations'
 require 'lhm'
 
-ActiveRecord.schema_format = :sql
+ActiveRecord::Base.schema_format = :sql
 
 if ENV['APP_ENV'] == 'development'
   Dotenv.load
