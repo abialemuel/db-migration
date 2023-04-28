@@ -28,6 +28,7 @@ Rails migrations in non-Rails (and non Ruby) projects.
 
 ### Documentation
 See 
+https://github.com/thuss/standalone-migrations 
 https://guides.rubyonrails.org/active_record_migrations.html
 
 for more detail information
