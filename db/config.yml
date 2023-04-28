@@ -1,0 +1,40 @@
+
+development:
+  adapter: mysql
+  encoding: utf8
+  host:     <%= ENV['DATABASE_HOST'] %>
+  port:     <%= ENV['DATABASE_PORT'] %>
+  database: <%= ENV['DATABASE_NAME'] %>
+  username: <%= ENV['DATABASE_USERNAME'] %>
+  password: <%= ENV['DATABASE_PASSWORD']%>
+  pool:     <%= ENV['DATABASE_POOL'] %>
+
+staging:
+  adapter: mysql
+  encoding: utf8
+  host:     <%= ENV['DATABASE_STAGING_HOST'] %>
+  port:     <%= ENV['DATABASE_STAGING_PORT'] %>
+  database: <%= ENV['DATABASE_STAGING_NAME'] %>
+  username: <%= ENV['DATABASE_STAGING_USERNAME'] %>
+  password: <%= ENV['DATABASE_STAGING_PASSWORD']%>
+  pool:     <%= ENV['DATABASE_STAGING_POOL'] %>
+
+preproduction:
+  adapter: mysql
+  encoding: utf8
+  host:     <%= ENV['DATABASE_HOST'] %>
+  port:     <%= ENV['DATABASE_PORT'] %>
+  database: <%= ENV['DATABASE_NAME'] %>
+  username: <%= ENV['DATABASE_USERNAME'] %>
+  password: <%= ENV['DATABASE_PASSWORD']%>
+  pool:     <%= ENV['DATABASE_POOL'] %>
+
+production:
+  adapter: mysql
+  encoding: utf8
+  host:     <%= ENV['DATABASE_PRODUCTION_HOST'] %>
+  port:     <%= ENV['DATABASE_PRODUCTION_PORT'] %>
+  database: <%= ENV['DATABASE_PRODUCTION_NAME'] %>
+  username: <%= ENV['DATABASE_PRODUCTION_USERNAME'] %>
+  password: <%= ENV['DATABASE_PRODUCTION_PASSWORD']%>
+  pool:     <%= ENV['DATABASE_PRODUCTION_POOL'] %>
